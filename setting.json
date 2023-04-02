@@ -1,0 +1,228 @@
+{
+	"editor.guides.bracketPairs": "active",
+	"editor.codeActionsOnSave": {
+		// "source.organizeImports": true,
+		"source.fixAll": true,
+		"source.fixAll.eslint": true,
+		"eslint.format.enable": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "typescript"
+	},
+	"editor.lineHeight": 27,
+	"editor.letterSpacing": 0.5,
+	"files.trimTrailingWhitespace": true,
+	"editor.cursorWidth": 3,
+	"editor.cursorBlinking": "solid",
+	"explorer.confirmDelete": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"sideBar.background": "#282a36",
+		"editor.background": "#2c2f3c",
+		"terminal.background": "#2c2f3c",
+		"panel.background": "#2c2f3c",
+		"activityBar.background": "#282a36",
+		"tab.activeBorderTop": "#ffb86c",
+		"panelTitle.activeBorder": "#ffb86c",
+		"editorBracketHighlight.foreground1": "#ffb86c",
+		"editorBracketHighlight.foreground2": "#8be9fd",
+		"editorBracketHighlight.foreground3": "#bd93f9",
+		"editorBracketHighlight.foreground4": "#50fa7b",
+		"editorBracketHighlight.foreground5": "#f1fa8c",
+		"editorBracketHighlight.foreground6": "#abb2c0",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff5555"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html"
+	},
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.tabSize": 4,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"beautify.onSave": true,
+	"workbench.iconTheme": "vscode-icons",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"gitlens.advanced.messages": {
+		"suppressLineUncommittedWarning": true
+	},
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.rendererType": "dom",
+	"editor.fontSize": 15,
+	"debug.console.fontSize": 14,
+	"explorer.confirmDragAndDrop": false,
+	"files.autoSaveDelay": 1500,
+	"highlight-matching-tag.highlightFromContent": true,
+	"highlight-matching-tag.highlightSelfClosing": true,
+	"editor.renderLineHighlight": "none",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "600",
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"editor.tokenColorCustomizations": {
+		"[Dracula]": {
+			"textMateRules": [
+				{
+					"scope": "entity.name.function",
+					"settings": {
+						"foreground": "#ffb86c",
+						"fontStyle": "bold"
+					}
+				},
+				{
+					"scope": "entity.other.attribute-name",
+					"settings": {
+						"foreground": "#00FF68",
+						"fontStyle": ""
+					}
+				},
+				{
+					"scope": "string",
+					"settings": {
+						"foreground": "#FFE887"
+					}
+				},
+				{
+					"scope": "punctuation.definition.string.begin",
+					"settings": {
+						"foreground": "#FFE887"
+					}
+				},
+				{
+					"scope": "punctuation.definition.string.end",
+					"settings": {
+						"foreground": "#FFE887"
+					}
+				},
+				{
+					"scope": "string.unquoted",
+					"settings": {
+						"foreground": "#00FF68",
+						"fontStyle": ""
+					}
+				}
+			]
+		}
+	},
+	"autoimport.filesToScan": "**/.{js,jsx,ts,tsx}",
+	"tabnine.experimentalAutoImports": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.mouseWheelZoom": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false
+	},
+	"[css]": {
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false
+	},
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.autoIndent": "advanced",
+		"gitlens.codeLens.scopes": [
+			"document"
+		]
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"": true,
+		"yaml": true,
+		"plaintext": true,
+		"markdown": true,
+		"typescriptreact": true
+	},
+	"cSpell.userWords": [
+		"antd",
+		"browserslist",
+		"clsx",
+		"craco",
+		"reduxjs",
+		"solarbk",
+		"tailwindcss"
+	],
+	"editor.fontFamily": "Dank Mono, Cascadia Code, JetBrains Mono, Fira Code",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.codeLensFontFamily": "Dank Mono, Cascadia Code, JetBrains Mono, Fira Code",
+	"files.associations": {
+		".html": "html",
+		".js": "javascript",
+		"*.jsx": "javascriptreact"
+	},
+	"bracketPairColorizer.depreciation-notice": false,
+	"files.exclude": {
+		"out": false
+	},
+	"search.exclude": {
+		"out": true
+	},
+	"typescript.tsc.autoDetect": "off",
+	"tailwindCSS.classAttributes": [
+		"class",
+		"className"
+	],
+	"tailwindCSS.emmetCompletions": true,
+	"files.saveConflictResolution": "overwriteFileOnDisk",
+	"files.defaultLanguage": "typescript",
+	"workbench.editor.wrapTabs": true,
+	"workbench.colorTheme": "Dracula",
+	"background.backgroundImageSize": "Contain",
+	"background.windowBackgrounds": [
+		"c:/Users/vinhn/Pictures/image/vscodeBg.png"
+	],
+	"sync.gist": "7b074405bb0f01900dd686136f5e3e8d",
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	"workbench.startupEditor": "none",
+	"prettier.tabWidth": 4,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+}
