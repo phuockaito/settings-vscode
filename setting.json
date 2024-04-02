@@ -2,12 +2,14 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.codeActionsOnSave": {
 		// "source.organizeImports": true,
-		"source.fixAll": true,
-		"source.fixAll.eslint": true,
-		"eslint.format.enable": true
+		"source.fixAll": "explicit",
+		"source.fixAll.eslint": "explicit",
+		"eslint.format.enable": "explicit"
 	},
 	"tailwindCSS.includeLanguages": {
-		"plaintext": "typescript"
+		"plaintext": "typescript",
+		"javascript": "javascript",
+		"html": "HTML"
 	},
 	"editor.lineHeight": 27,
 	"editor.letterSpacing": 0.5,
@@ -43,7 +45,7 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
 	"beautify.onSave": true,
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "material-icon-theme",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"gitlens.advanced.messages": {
 		"suppressLineUncommittedWarning": true
@@ -139,9 +141,10 @@
 	},
 	"[css]": {
 		"editor.formatOnSave": true,
-		"editor.tabSize": 2,
+		"editor.tabSize": 4,
 		"editor.insertSpaces": true,
-		"editor.detectIndentation": false
+		"editor.detectIndentation": false,
+		"editor.defaultFormatter": "vscode.css-language-features"
 	},
 	"[yaml]": {
 		"editor.insertSpaces": true,
@@ -168,11 +171,13 @@
 		"browserslist",
 		"clsx",
 		"craco",
+		"Defi",
+		"Presale",
 		"reduxjs",
 		"solarbk",
 		"tailwindcss"
 	],
-	"editor.fontFamily": "Dank Mono, Cascadia Code, JetBrains Mono, Fira Code",
+	"editor.fontFamily": "Fira Code, JetBrains Mono, Dank Mono, Cascadia Code",
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
@@ -220,9 +225,22 @@
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
 		"editor.suggestSelection": "first",
 		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": false
+		"editor.wordBasedSuggestions": "off"
 	},
 	"[vue]": {
 		"editor.defaultFormatter": "Vue.volar"
 	},
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"redhat.telemetry.enabled": true,
+	"tailwind-fold.autoFold": false,
+	"workbench.editorAssociations": {
+		"*.lockb": "default"
+	},
+	"remoteHub.commitDirectlyWarning": "off",
+	"notebook.stickyScroll.enabled": true,
 }
