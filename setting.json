@@ -243,4 +243,10 @@
 	},
 	"remoteHub.commitDirectlyWarning": "off",
 	"notebook.stickyScroll.enabled": true,
+	"tailwindCSS.experimental.classRegex": [
+		[
+			"clsx\\(([^)]*)\\)",
+			"(?:'|\"|`)([^']*)(?:'|\"|`)"
+		]
+	]
 }
