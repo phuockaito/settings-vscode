@@ -252,4 +252,5 @@
             "(?:'|\"|`)([^']*)(?:'|\"|`)"
         ]
     ],
+     "explorer.compactFolders": false,
 }
